@@ -1,0 +1,189 @@
+
+/* General */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.plain-btn{
+  background-color: none !important;
+  border: none !important;
+  font-style: normal;
+}
+.nav-search{
+  margin-left: 2rem;
+  background-color: #cccccc;
+  padding: .5rem;
+  border-radius: 50%;
+}
+.dropdown-toggle::after{
+  margin-left: .4rem;
+}
+.App {
+  text-align: center;
+}
+
+
+/* navbar */
+
+.nav-item {
+  color: #212529;
+}
+
+.badge-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  position: relative;
+  right: 1rem;
+  border-radius: 50%;
+  top: -5px;
+}
+
+
+
+/* side-bar */
+.sidebar-show{
+  left: 0 !important ;
+}
+
+.sidebar{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+  height: 100%;
+  /* left: -9.2rem; */
+  background: #f99b8f; /* Old browsers */
+  background: -moz-linear-gradient(top, #f99b8f 1%, #ff8075 14%, #fe6c99 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f99b8f 1%,#ff8075 14%,#fe6c99 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f99b8f 1%,#ff8075 14%,#fe6c99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f99b8f', endColorstr='#fe6c99',GradientType=0 ); /* IE6-9 */
+}
+
+.nav-link> i{
+  float: right;
+     padding: 0 0 0 1rem;
+     
+}
+#menu-toggle> i{
+  float: right;
+}
+.nav-link.active> i {
+  border-left: 2px solid red;
+  
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color:transparent;
+}
+
+.nav-pills a{
+margin: .5rem 0; 
+color: #fff;
+
+}
+#menu-toggle{
+  color: #fff;
+}
+
+/* user-component */
+.sub-title{
+  font-size: .71rem;
+  color: #777778;
+  font-weight: 200;
+}
+
+.input-group-text {
+  background-color: #fff;
+  /* border: 1px solid #fff; */
+  position: relative;
+  left: -41px;
+  border-left: none;
+}
+.search-icon{
+  border: none;
+  background: none;
+  z-index: 1050;
+}
+.search-input{
+  border-radius: 20px !important;
+}
+
+.add-btn{
+color: #fff;
+background: #f99b8f; /* Old browsers */
+background: -moz-linear-gradient(left, #f99b8f 1%, #ff8075 14%, #fe6c99 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #f99b8f 1%,#ff8075 14%,#fe6c99 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #f99b8f 1%,#ff8075 14%,#fe6c99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f99b8f', endColorstr='#fe6c99',GradientType=1 ); /* IE6-9 */
+}
+.contact-title{
+  font-size: 0.785rem;
+  align-items: baseline;
+}
+.table-section{
+  font-size: 0.785rem;
+}
+
+.table .thead-light th{
+  background-color: #f0f0f0;
+}
+th> .btn{
+  background: none;
+  border: 1px solid #cacaca;
+ 
+  font-size: .7rem;
+}
+.table td {
+  padding-left: 1rem !important;
+}
+.user-img{
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+form> input {
+  margin: 1rem auto;
+}
+
+/* user-details-component */
+.user-card,.tax-card{
+  background-color: #f0f0f0;
+  font-size: 0.785rem;
+}
+.user-card{
+  margin-top:14rem;
+}
+
+.image> img {
+  border-radius: 50%;
+  width: 20%;
+}
+.image> p,.tax-text p {
+  font-size: .6rem;
+  }
+.image>p,.table th,.tax-text p, .contact-title p{
+  color: #777778;
+  font-weight: 200;
+}
+.table td{
+  padding-left:5rem;
+
+}
+.tax-card{
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tax-icon i{
+  font-size: 2rem;
+}
+.tax-text h6{
+  font-size: 0.785rem;
+}
+.more-icon{
+  font-size: .78rem;
+  
+
+}
+
