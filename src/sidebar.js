@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Sidebar extends Component {
   constructor(props){
     super(props);
     this.menutoggle = this.menutoggle.bind(this);
   }
   menutoggle(e){
+    // e.target.style.visibility = 'hidden';
     // e.target.style.visibility = 'hidden';
     document.body.classList.toggle('sidebar-show');
   }
@@ -18,7 +19,7 @@ class Sidebar extends Component {
       
             <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 
-                <a className="nav-link" id="menu-toggle" onClick={this.menutoggle} ref="menu"> <i className=" btn fa fa-bars" aria-hidden="true"></i></a>
+                <a className="nav-link" id="menu-toggle" onClick={this.menutoggle} ref="menu"> <i className=" fa fa-bars"></i>  </a>
 
                 <a className="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"> Home <i className="fa fa-home"></i> </a>
                 <a className="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> profile <i className="fa fa-user"></i> </a>

@@ -99,7 +99,8 @@ color: #fff;
   /* border: 1px solid #fff; */
   position: relative;
   left: -41px;
-  border-left: none;
+  background-color:transparent !important;
+  border:none !important;
 }
 .search-icon{
   border: none;
@@ -187,3 +188,6 @@ form> input {
 
 }
 
+.user-row{
+  background-color:red;
+}

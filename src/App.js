@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import Sidebar from './sidebar';
 import User from './user';
-import Udetails from './udetails';
+
 import Nav from'./nav-bar';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +20,7 @@ class App extends Component {
                     <Nav/>
                     <div className="row">
                     <User />
-                    <Udetails/>
+                    
                     </div>
                     </div>
                 </div>
