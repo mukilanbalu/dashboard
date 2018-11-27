@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 class Udetails extends Component {
     constructor(props){
         super(props);
-        console.log( 'hi'+this.props.name);
-        this.click = this.click.bind(this);
+        console.log("invoked");
+       
     }
-    click(){
-        console.log(this.props.user.name)
-    }
+  
   render() {
     return (
             <div className="col-lg-4 mt-10">
@@ -18,7 +16,7 @@ class Udetails extends Component {
                     <h5 className="mb-0">{this.props.user.name}</h5>
                     <p >Product manager@ Flat CRM Management</p>
                 </div>
-                <div className="details" onClick={this.click}>
+                <div className="details" >
                             
                 <table className="table text-left">
  
